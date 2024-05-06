@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css2?family=Abel&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F8F7;
+}
+
+html {
+    font-family: 'Abel';
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    background-color: #F7F8F7;
+}
+
+.imagem-setas {
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-content {
+    background-color: #CAFAD9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+
+.main-content-div {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.main-content-p {
+    font-size: 20px;
+    
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.div-botões {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-between;
+    gap: 1.5rem;
+    margin-right: 40px;
+}
+
+.botão-roxo {
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #7622D7;
+    color: #F7F8F7;
+}
+
+.botão-cinza {
+    border: solid 3px black;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #CAFAD9;
+    color: black;
+}
+
+.main-content-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    height: 30vh;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-setas {
+    width: 20px;
+    height: 20px;
+}
+
+.main-content-contrate {
+    background-color: #CAFAD9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+    padding-bottom: 20px;
+}
+
+.main-content-contrate-p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.div-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 18px;
+    padding-bottom: 140px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.div-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 17px;
+}
+
+.footer-direitos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
